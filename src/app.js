@@ -37,3 +37,4 @@ app.use(async (req, res, next) => {
 app.use("/api/articles", routes);
 
 module.exports = app;
+// mongodb://127.0.0.1:27017/react-blog-db
